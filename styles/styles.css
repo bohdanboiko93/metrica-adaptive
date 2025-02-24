@@ -85,7 +85,7 @@ h1 {
   margin-top: 34px;
 
   position: relative;
-  background-image: url("./resources/gray_chair.png");
+  background-image: url("../resources/gray_chair.png");
   box-sizing: border-box;
   background-size: cover;
   background-repeat: no-repeat;
