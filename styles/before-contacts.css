@@ -1,0 +1,26 @@
+.before-contacts {
+  height: 717px;
+  width: 100%;
+
+  position: relative;
+  box-sizing: border-box;
+  background-image: url("../resources/bad_in_room.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.before-contacts-text {
+  width: 443px;
+  height: 82px;
+  left: 125px;
+  bottom: 60px;
+
+  position: absolute;
+  box-sizing: border-box;
+  line-height: 42px;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  color: #fff;
+}

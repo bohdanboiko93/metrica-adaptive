@@ -1,0 +1,85 @@
+.interior {
+  max-width: 1150px;
+  height: 100%;
+  margin: 0 auto;
+}
+.interior-title {
+  margin-top: 70px;
+  max-width: 956px;
+
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: -0.03em;
+}
+
+.interior-container {
+  width: 100%;
+  height: 500px;
+  margin-top: 34px;
+
+  position: relative;
+  background-image: url("../resources/gray_chair.png");
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.interior-text {
+  width: 430px;
+  height: 80px;
+  left: 40px;
+  bottom: 40px;
+
+  position: absolute;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  line-height: 27px;
+  color: #fff;
+}
+
+@media (max-width: 1199px) {
+  .interior {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .interior-title {
+    max-width: 802px;
+    font-size: 50px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 767px) {
+  .interior {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .interior-container {
+    background-position: 50%;
+    margin-top: 25px;
+  }
+
+  .interior-title {
+    width: 100%;
+    font-size: 32px;
+    line-height: 105%;
+  }
+
+  .interior-text {
+    max-width: 312px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .interior-container {
+    background-image: url("../resources/gray_chair_480.png");
+  }
+}

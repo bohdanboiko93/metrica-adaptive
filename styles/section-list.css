@@ -1,0 +1,14 @@
+.section-list {
+  display: block;
+  margin-top: 157px;
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (min-width: 767px) {
+  .section-list {
+    margin-top: 80px;
+  }
+}

@@ -1,0 +1,45 @@
+.contacts-section {
+  height: 217px;
+  margin-left: 125px;
+  margin-top: 150px;
+
+  box-sizing: border-box;
+}
+
+.contacts-title {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.03em;
+}
+
+.contacts-title::before {
+  content: "";
+  display: block;
+
+  margin-bottom: 15px;
+  width: 13px;
+  height: 22px;
+  background-image: url("../resources/telephone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tel {
+  padding-top: 41px;
+  font-weight: 400;
+  font-size: 62px;
+  letter-spacing: -0.03em;
+  color: #121212;
+  text-decoration: none;
+}
+
+.mail {
+  padding-top: 30px;
+
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: -0.03em;
+  color: rgba(18, 18, 18, 0.5);
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
