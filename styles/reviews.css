@@ -46,6 +46,7 @@
 
 .big_review {
   width: 860px;
+  margin-top: 50px;
 }
 
 @media (max-width: 1199px) {
@@ -71,10 +72,6 @@
   }
 }
 
-.big_review {
-  margin-top: 80px;
-}
-
 @media (max-width: 767px) {
   .reviews {
     padding-left: 13px;
@@ -83,6 +80,19 @@
 
   .review-wrapper {
     width: 100%;
+  }
+
+  .review_name {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .review_text {
+    font-size: 16px;
+  }
+
+  .big_review {
+    margin-top: 10px;
   }
 
   .row {
