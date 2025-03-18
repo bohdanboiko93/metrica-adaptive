@@ -197,11 +197,54 @@
       </div>
     </section>
 
-    <section class="section-list">
-      <div class="before-contacts">
-        <div class="before-contacts-text">
-          <p>Галерея проектов</p>
-          <p>Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+    <section class="section-gallery">
+      <div class="container-gallery">
+        <div class="gallery">
+          <p class="gallery_title">Галерея проектов</p>
+          <div class="gallery-slides">
+            <div class="gallery-slide">
+              <img
+                class="gallery_image forest"
+                src="resources/gallery/forest.png"
+                alt="forest"
+              />
+              <p class="gallery-text">
+                Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
+              </p>
+            </div>
+            <div class="gallery-slide gallery__slide_active">
+              <img
+                class="gallery_image lighthouse"
+                src="resources/gallery/lighthouse.png"
+                alt="lighthouse"
+              />
+              <p class="gallery-text">Проект гостиной в ЖК Маяк</p>
+            </div>
+            <div class="gallery-slide">
+              <img
+                class="gallery_image kitchen"
+                src="resources/gallery/kitchen.png"
+                alt="kitchen"
+              />
+              <p class="gallery-text">
+                Визуализация кухни-гостиной в частном доме
+              </p>
+            </div>
+            <div class="gallery-slide">
+              <img
+                class="gallery_image scandinavian_kitchen"
+                src="resources/gallery/scandinavian_kitchen.png"
+                alt="scandinavian_kitchen"
+              />
+              <p class="gallery-text">
+                Проект кухни в скандинавском стиле для ЖК Северный Ветер
+              </p>
+            </div>
+          </div>
+          <div class="gallery-controls">
+            <button class="gallery_control_previous"><</button>
+            <button class="gallery_control_next">></button>
+          </div>
         </div>
       </div>
     </section>
@@ -226,5 +269,6 @@
         <p class="footer-bottom">студия дизайна интерьера Метрика — 2023</p>
       </div>
     </footer>
+    <script src="gallery.js"></script>
   </body>
 </html>

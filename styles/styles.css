@@ -4,10 +4,9 @@
 @import url(projects.css);
 @import url(black-section.css);
 @import url(reviews.css);
-@import url(before-contacts.css);
 @import url(contacts-section.css);
 @import url(footer.css);
-@import url(section-list.css);
+@import url(gallery.css);
 
 html {
   scroll-behavior: smooth;
