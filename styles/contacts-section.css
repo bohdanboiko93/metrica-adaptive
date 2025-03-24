@@ -18,7 +18,8 @@
   align-items: center;
 }
 
-.tel::before {
+.tel::before,
+.mail::before {
   content: "";
   display: block;
 
@@ -39,15 +40,8 @@
 }
 
 .mail::before {
-  content: "";
-  display: block;
-
-  margin-bottom: 26px;
   width: 24px;
-  height: 22px;
   background-image: url("../resources/letter.png");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .mail {
