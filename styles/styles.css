@@ -2,6 +2,7 @@
 @import url(interior.css);
 @import url(about.css);
 @import url(projects.css);
+@import url(popup.css);
 @import url(black-section.css);
 @import url(reviews.css);
 @import url(contacts-section.css);
@@ -16,4 +17,6 @@ html {
 
 body {
   font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.03em;
 }
