@@ -141,10 +141,10 @@
           </li>
         </ul>
       </div>
-      <a class="services_a" href="">Заказать услугу</a>
-      <div class="popup">
-        <div class="popup-content">
-          <button class="popup_close-btn">
+      <a class="js-btn services_a">Заказать услугу</a>
+      <div class="popup js-popup">
+        <div class="popup-content js-popup__content">
+          <button class="popup_close-btn js-popup__close-btn">
             <img src="resources/X.png" alt="close_btn" />
           </button>
           <div class="popup-text-wrapper">
@@ -152,6 +152,15 @@
             <p class="popup_text">
               Заполните форму, мы свяжемся с вами в течение суток
             </p>
+          </div>
+          <div class="input-container">
+            <input class="input" type="text" placeholder="Имя" />
+            <input class="input" type="mail" placeholder="Электронная почта" />
+            <input
+              class="input"
+              type="phone-number"
+              placeholder="Номер телефона"
+            />
           </div>
           <button class="popup_btn_order">Отправить</button>
         </div>
@@ -288,5 +297,6 @@
       </div>
     </footer>
     <script src="gallery.js"></script>
+    <script src="popup.js"></script>
   </body>
 </html>
